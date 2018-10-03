@@ -16,6 +16,10 @@ public class LambdaTest {
 	public void setValue(String value) {
 		this.value = value;
 	}
+	@Override
+	public String toString() {
+		return "LambdaTest [name=" + name + ", value=" + value + "]";
+	}
 	
 	
 
